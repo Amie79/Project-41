@@ -60,15 +60,15 @@ class Game{
                          // to display player name on the basket.
                         fill(0);
                         textSize(15);
-                        text(allPlayers[plr].name,x-30,y,30);
+                        text(allPlayers[plr].name,x-30,y+30);
                          
                      }
                     
                      //text to display player score.
                      fill("blue");
                      textSize(20);
-                     text("Player1:                   "          +       allPlayers.player1.score,150,530);
-                     text("Player2:                   "          +       allPlayers.player2.score,750,530);
+                     text("Player1:       "      +     allPlayers.player1.score,150,530);
+                     text("Player2:       "      +     allPlayers.player2.score,750,530);
                  }
                 
                 
